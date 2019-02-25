@@ -3,7 +3,7 @@
 | --- | --- | --- | --- |
 | 000 | Feb 22, 2019 | [Argparse](000) | some initial practice with argparse and requests in preparation for writing some cli scripts |
 | 001 | Feb 23, 2019 | [html parsing](001) | Web scraping with beautiful soup |
-| 002 | Feb 24, 2019 | [TITLE](002) | LEARNING |
+| 002 | Feb 24, 2019 | [generator and namedtuples](002) | Returning values with named tuples and generator functions |
 | 003 | Feb 25, 2019 | [TITLE](003) | LEARNING |
 | 004 | Feb 26, 2019 | [TITLE](004) | LEARNING |
 | 005 | Feb 27, 2019 | [TITLE](005) | LEARNING |
