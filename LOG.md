@@ -5,7 +5,7 @@
 | 001 | Feb 23, 2019 | [html parsing](001) | Web scraping with beautiful soup |
 | 002 | Feb 24, 2019 | [generator and namedtuples](002) | Returning values with named tuples and generator functions |
 | 003 | Feb 25, 2019 | [lolcats](003) | File operations, basic module separation, and subprocess |
-| 004 | Feb 26, 2019 | [TITLE](004) | LEARNING |
+| 004 | Feb 26, 2019 | [wizard game](004) | classes, inheritance |
 | 005 | Feb 27, 2019 | [TITLE](005) | LEARNING |
 | 006 | Feb 28, 2019 | [TITLE](006) | LEARNING |
 | 007 | Mar 01, 2019 | [TITLE](007) | LEARNING |
