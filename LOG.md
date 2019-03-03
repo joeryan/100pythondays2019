@@ -7,7 +7,7 @@
 | 003 | Feb 25, 2019 | [lolcats](003) | File operations, basic module separation, and subprocess |
 | 004 | Feb 26, 2019 | [wizard game](004) | classes, inheritance |
 | 005 | Feb 28, 2019 | [file search app - grep](005) | generators |
-| 006 | Mar 01, 2019 | [TITLE](006) | LEARNING |
+| 006 | Mar 01, 2019 | [cybrary exercises](006) | Sockets, more classes/generators |
 | 007 | Mar 02, 2019 | [TITLE](007) | LEARNING |
 | 008 | Mar 03, 2019 | [TITLE](008) | LEARNING |
 | 009 | Mar 04, 2019 | [TITLE](009) | LEARNING |
