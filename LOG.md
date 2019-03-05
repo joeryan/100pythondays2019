@@ -9,23 +9,23 @@
 | 005 | Feb 28, 2019 | [file search app - grep](005) | generators |
 | 006 | Mar 01, 2019 | [cybrary exercises](006) | Sockets, more classes/generators |
 | 007 | Mar 02, 2019 | [pytest](007) | simple pytest and testing web api |
-| 008 | Mar 03, 2019 | [TITLE](008) | LEARNING |
-| 009 | Mar 04, 2019 | [TITLE](009) | LEARNING |
-| 010 | Mar 05, 2019 | [TITLE](010) | LEARNING |
-| 011 | Mar 06, 2019 | [TITLE](011) | LEARNING |
-| 012 | Mar 07, 2019 | [TITLE](012) | LEARNING |
-| 013 | Mar 08, 2019 | [TITLE](013) | LEARNING |
-| 014 | Mar 09, 2019 | [TITLE](014) | LEARNING |
-| 015 | Mar 10, 2019 | [TITLE](015) | LEARNING |
-| 016 | Mar 11, 2019 | [TITLE](016) | LEARNING |
-| 017 | Mar 12, 2019 | [TITLE](017) | LEARNING |
-| 018 | Mar 13, 2019 | [TITLE](018) | LEARNING |
-| 019 | Mar 14, 2019 | [TITLE](019) | LEARNING |
-| 020 | Mar 15, 2019 | [TITLE](020) | LEARNING |
-| 021 | Mar 16, 2019 | [TITLE](021) | LEARNING |
-| 022 | Mar 17, 2019 | [TITLE](022) | LEARNING |
-| 023 | Mar 18, 2019 | [TITLE](023) | LEARNING |
-| 024 | Mar 19, 2019 | [TITLE](024) | LEARNING |
+| 008 | Mar 04, 2019 | [csv/lamdas](008) | csv module dictreader and lamdas |
+| 009 | Mar 05, 2019 | [TITLE](009) | LEARNING |
+| 010 | Mar 06, 2019 | [TITLE](010) | LEARNING |
+| 011 | Mar 07, 2019 | [TITLE](011) | LEARNING |
+| 012 | Mar 08, 2019 | [TITLE](012) | LEARNING |
+| 013 | Mar 09, 2019 | [TITLE](013) | LEARNING |
+| 014 | Mar 10, 2019 | [TITLE](014) | LEARNING |
+| 015 | Mar 11, 2019 | [TITLE](015) | LEARNING |
+| 016 | Mar 12, 2019 | [TITLE](016) | LEARNING |
+| 017 | Mar 13, 2019 | [TITLE](017) | LEARNING |
+| 018 | Mar 14, 2019 | [TITLE](018) | LEARNING |
+| 019 | Mar 15, 2019 | [TITLE](019) | LEARNING |
+| 020 | Mar 16, 2019 | [TITLE](020) | LEARNING |
+| 021 | Mar 17, 2019 | [TITLE](021) | LEARNING |
+| 022 | Mar 18, 2019 | [TITLE](022) | LEARNING |
+| 023 | Mar 19, 2019 | [TITLE](023) | LEARNING |
+| 024 | Mar 20, 2019 | [TITLE](024) | LEARNING |
 | 025 | Mar 20, 2019 | [TITLE](025) | LEARNING |
 | 026 | Mar 21, 2019 | [TITLE](026) | LEARNING |
 | 027 | Mar 22, 2019 | [TITLE](027) | LEARNING |
