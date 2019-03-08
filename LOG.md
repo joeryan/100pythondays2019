@@ -11,7 +11,7 @@
 | 007 | Mar 02, 2019 | [pytest](007) | simple pytest and testing web api |
 | 008 | Mar 04, 2019 | [csv/lamdas](008) | csv module dictreader and lamdas |
 | 009 | Mar 06, 2019 | [fixlog.py](009) | file IO, text parsing, datetime objects |
-| 010 | Mar 07, 2019 | [TITLE](010) | LEARNING |
+| 010 | Mar 07, 2019 | [names.py](010) | list comprehension |
 | 011 | Mar 08, 2019 | [TITLE](011) | LEARNING |
 | 012 | Mar 09, 2019 | [TITLE](012) | LEARNING |
 | 013 | Mar 10, 2019 | [TITLE](013) | LEARNING |
