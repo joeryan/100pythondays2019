@@ -21,7 +21,7 @@ class Card:
 
     def __str__(self):
         return self.cardstr
-    
+
 
 class PokerHand:
 
@@ -39,6 +39,11 @@ class PokerHand:
         self.cards.sort(key=lambda x: x.value)
 
     def call(self, opponent):
+        if self.get_hand_value() > opponent.get_hand_value():
+            return "Win"
+        if self.get_hand_value() < opponent.get_hand_value():
+            return "Lose"
+
         my_hand = sorted(self.cards, key=lambda x: x.value, reverse=True)
         opponent_hand = sorted(opponent.cards, key=lambda x: x.value, reverse=True)
         winner = None
@@ -47,23 +52,21 @@ class PokerHand:
         if my_value == opponent_value:
             card_count = 0
             while not winner:
-                if PokerHand.FACE_VALUES[my_hand[card_count].value]\
-                        > PokerHand.FACE_VALUES[opponent_hand[card_count].value]:
+                if my_hand[card_count].value > opponent_hand[card_count].value:
                     winner = my_hand
-                elif PokerHand.FACE_VALUES[my_hand[card_count].value]\
-                        < PokerHand.FACE_VALUES[opponent_hand[card_count].value]:
+                elif my_hand[card_count].value < opponent_hand[card_count].value:
                     winner = opponent_hand
                 else:
                     card_count += 1
             winning_hand = []
             for i in range(0,card_count):
-                winning_hand.append(winner[i])
+                winning_hand.append(str(winner[i]))
             if winner == my_hand:
-                return "I win with {} {}".format(my_value[0],
-                                                 ''.join(str(winning_hand[-(my_value[1]):])))
+                return "Win"
+                # with {} {}".format(my_value[0],''.join(str(winning_hand[-(my_value[1]):])))
             elif winner == opponent_hand:
-                return "Opponent wins with {} {}".format(opponent_value[0],
-                                                         ''.join(winning_hand[-(my_value[1]):]))
+                return "Lose"
+                       # "Opponent wins with {} {}".format(opponent_value[0],''.join(winning_hand[-(my_value[1]):]))
 
     def __str__(self):
         hand_str = []
@@ -72,6 +75,8 @@ class PokerHand:
         return " ".join(hand_str)
 
     def get_hand_value(self):
+        flush, straight = False, False
+        
         return ("High Card", 1)
 
 

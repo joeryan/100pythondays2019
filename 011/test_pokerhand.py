@@ -23,13 +23,14 @@ def test_string_representation_of_pokerhand():
     assert(str(myhand) == '2H 3D 5S 9C KD')
 
 
-def test_highcard_pokerhand_wins():
+def test_highhand_calling_lowhand_wins():
     high_hand = PokerHand('2C 3H 4S 8C AH')
     low_hand = PokerHand('2H 3D 5S 9C KD')
-    assert(high_hand.call(low_hand) == "You Win with High Card AH")
+    assert(high_hand.call(low_hand) == "Win")
 
 
-def test_lowhand_loses_to_highcard_pokerhand():
+def test_lowhand_calling_highhand_loses():
     high_hand = PokerHand('2C 3H 4S 8C AH')
     low_hand = PokerHand('2H 3D 5S 9C KD')
-    assert(low_hand.call(high_hand) == "You Lose to High Card AH")
+    assert(low_hand.call(high_hand) == "Lose")
+
