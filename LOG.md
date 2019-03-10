@@ -13,7 +13,7 @@
 | 009 | Mar 06, 2019 | [fixlog.py](009) | file IO, text parsing, datetime objects |
 | 010 | Mar 07, 2019 | [names.py](010) | list comprehension |
 | 011 | Mar 08, 2019 | [pokerhand.py](011) | testing, classes, complexity from http://codingdojo.org/kata/PokerHands/ |
-| 012 | Mar 09, 2019 | [TITLE](012) | LEARNING |
+| 012 | Mar 09, 2019 | [pokerhand.py](012) | testing, classes continued on pokerhand kata |
 | 013 | Mar 10, 2019 | [TITLE](013) | LEARNING |
 | 014 | Mar 11, 2019 | [TITLE](014) | LEARNING |
 | 015 | Mar 12, 2019 | [TITLE](015) | LEARNING |
