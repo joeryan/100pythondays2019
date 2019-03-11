@@ -76,7 +76,7 @@ class PokerHand:
 
     def get_hand_value(self):
         flush, straight = False, False
-        
+
         return ("High Card", 1)
 
 

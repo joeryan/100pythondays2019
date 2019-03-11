@@ -14,7 +14,7 @@
 | 010 | Mar 07, 2019 | [names.py](010) | list comprehension |
 | 011 | Mar 08, 2019 | [pokerhand.py](011) | testing, classes, complexity from http://codingdojo.org/kata/PokerHands/ |
 | 012 | Mar 09, 2019 | [pokerhand.py](012) | testing, classes continued on pokerhand kata |
-| 013 | Mar 10, 2019 | [TITLE](013) | LEARNING |
+| 013 | Mar 10, 2019 | [NA - pycharm use](013) | IDE functionality and virtual envs |
 | 014 | Mar 11, 2019 | [TITLE](014) | LEARNING |
 | 015 | Mar 12, 2019 | [TITLE](015) | LEARNING |
 | 016 | Mar 13, 2019 | [TITLE](016) | LEARNING |
