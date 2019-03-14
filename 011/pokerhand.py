@@ -77,11 +77,22 @@ class PokerHand:
     def get_hand_value(self):
         flush, straight = False, False
 
-        return ("High Card", 1)
+        return "High Card", 1
+
+    def score_hand(self):
+        score = {}
+        score['cards'] = None
+        score['value'] = collections.defaultdict(lambda: 0)
+        for i, card in enumerate(self.cards):
+            if card.value in self.cards[i+1:]:
+                score.value[card.value] += 1
+        return score
 
 
 if __name__ == '__main__':
-    myhand = PokerHand('2C 3H 4S 8C AH')
+    myhand = PokerHand('2C 8H 4S 8C AH')
+    myscore = ''.join([x for x in myhand.score_hand()['value']])
     opponenthand = PokerHand('2H 3D 5S 9C KD')
     print("My hand is: {}".format(myhand))
+    print("My score is : {}".format(myscore))
     print("Opponent's hand is: {}".format(opponenthand))
