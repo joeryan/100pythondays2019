@@ -1,4 +1,5 @@
 import collections
+from operator import itemgetter
 
 
 class Card:
@@ -24,10 +25,7 @@ class Card:
 
 
 class PokerHand:
-
-    HAND_VALUES = {'High Card': 1, 'Pair': 2, 'Two Pair': 3, 'Three of a Kind': 4,
-                   'Straight': 5, 'Flush': 6, 'Full House': 7, 'Four of a Kind': 8,
-                   'Straight Flush': 9}
+    MULTIPLES = { 2: 'Pair', 3: 'Three of a Kind', 4: 'Four of a Kind'}
 
     def __init__(self, hand):
         self.cards = []
@@ -45,7 +43,7 @@ class PokerHand:
             return "Lose"
 
         my_hand = sorted(self.cards, key=lambda x: x.value, reverse=True)
-        opponent_hand = sorted(opponent.cards, key=lambda x: x.value, reverse=True)
+        opponent = sorted(opponent.cards, key=lambda x: x.value, reverse=True)
         winner = None
         my_value = self.get_hand_value()
         opponent_value = opponent.get_hand_value()
@@ -64,7 +62,7 @@ class PokerHand:
             if winner == my_hand:
                 return "Win"
                 # with {} {}".format(my_value[0],''.join(str(winning_hand[-(my_value[1]):])))
-            elif winner == opponent_hand:
+            elif winner == opponent:
                 return "Lose"
                        # "Opponent wins with {} {}".format(opponent_value[0],''.join(winning_hand[-(my_value[1]):]))
 
@@ -75,24 +73,33 @@ class PokerHand:
         return " ".join(hand_str)
 
     def get_hand_value(self):
-        flush, straight = False, False
-
+        multiples = {'cards': None, 'value': collections.defaultdict(lambda: 0)}
+        value_count = self.score_hand()['value']
+        for key, value in value_count.items():
+            multiples[value] += 1
+        if multiples:
+            return multiples
         return "High Card", 1
 
     def score_hand(self):
-        score = {}
-        score['cards'] = None
-        score['value'] = collections.defaultdict(lambda: 0)
-        for i, card in enumerate(self.cards):
-            if card.value in self.cards[i+1:]:
-                score.value[card.value] += 1
+        score = {'cards': None, 'value': collections.defaultdict(lambda: 0)}
+        for card in self.cards:
+            score['value'][card.value] += 1
+        score['value'] = collections.OrderedDict(sorted(
+                            score['value'].items(), key=itemgetter(1), reverse=True))
         return score
 
 
 if __name__ == '__main__':
     myhand = PokerHand('2C 8H 4S 8C AH')
-    myscore = ''.join([x for x in myhand.score_hand()['value']])
-    opponenthand = PokerHand('2H 3D 5S 9C KD')
+    myscore = myhand.score_hand()
+    opponent_hand = PokerHand('2H 3D 5S 9C KD')
+    opponent_score = opponent_hand.score_hand()
     print("My hand is: {}".format(myhand))
-    print("My score is : {}".format(myscore))
-    print("Opponent's hand is: {}".format(opponenthand))
+    for key, value in myscore['value'].items():
+        print("%s: %s" % (key, value), end='\t ')
+    print('\n')
+    print("Opponent's hand is: {}".format(opponent_hand))
+    for key, value in opponent_score['value'].items():
+        print("%s: %s" % (key, value), end='\t ')
+    print('\n')

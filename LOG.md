@@ -13,11 +13,11 @@
 | 009 | Mar 06, 2019 | [fixlog.py](009) | file IO, text parsing, datetime objects |
 | 010 | Mar 07, 2019 | [names.py](010) | list comprehension |
 | 011 | Mar 08, 2019 | [pokerhand.py](011) | testing, classes, complexity from http://codingdojo.org/kata/PokerHands/ |
-| 012 | Mar 09, 2019 | [pokerhand.py](011) | testing, classes continued on pokerhand kata |
+| 012 | Mar 09, 2019 | [More Pokerhand](011) | testing, classes continued on pokerhand kata |
 | 013 | Mar 10, 2019 | [NA - pycharm use](013) | IDE functionality and virtual envs |
 | 014 | Mar 12, 2019 | [Raspberry Pi projects](014) | Timelapse camera viewing, timelapse capture |
-| 015 | Mar 13, 2019 | [More poker hand](011) | More testing and classes |
-| 016 | Mar 14, 2019 | [TITLE](016) | LEARNING |
+| 015 | Mar 13, 2019 | [More PokerHand](011) | More testing and classes |
+| 016 | Mar 14, 2019 | [More PokerHand](011) | OrderedDict |
 | 017 | Mar 15, 2019 | [TITLE](017) | LEARNING |
 | 018 | Mar 16, 2019 | [TITLE](018) | LEARNING |
 | 019 | Mar 17, 2019 | [TITLE](019) | LEARNING |
