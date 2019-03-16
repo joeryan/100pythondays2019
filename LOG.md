@@ -18,7 +18,7 @@
 | 014 | Mar 12, 2019 | [Raspberry Pi projects](014) | Timelapse camera viewing, timelapse capture |
 | 015 | Mar 13, 2019 | [More PokerHand](011) | More testing and classes |
 | 016 | Mar 14, 2019 | [More PokerHand](011) | OrderedDict |
-| 017 | Mar 15, 2019 | [TITLE](017) | LEARNING |
+| 017 | Mar 15, 2019 | [wordvalue](017) | lists and calculating values|
 | 018 | Mar 16, 2019 | [TITLE](018) | LEARNING |
 | 019 | Mar 17, 2019 | [TITLE](019) | LEARNING |
 | 020 | Mar 18, 2019 | [TITLE](020) | LEARNING |
