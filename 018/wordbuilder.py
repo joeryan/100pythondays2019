@@ -1,0 +1,91 @@
+from data import DICTIONARY, POUCH, LETTER_SCORES
+import random
+
+
+def load_words():
+    return DICTIONARY
+
+
+def calc_word_value(word):
+    """Calculate the value of the word entered into function
+    using imported constant mapping LETTER_SCORES"""
+    score = 0
+    for letter in word:
+        if letter.isalnum():
+            score += LETTER_SCORES[letter.upper()]
+    return score
+
+
+def max_word_value(words=load_words()):
+    """Calculate the word with the max value, can receive a list
+    of words as arg, if none provided uses default DICTIONARY"""
+    max_word = ''
+    max_word_val = 0
+    for word in words:
+        if calc_word_value(word) > max_word_val:
+            max_word_val = calc_word_value(word)
+            max_word = word
+    return max_word
+
+
+def get_possible_dict_words(draw):
+    permutations = _get_permutations_draw(draw)
+    words = []
+    print(type(permutations))
+    for word in permutations:
+        if word in DICTIONARY:
+            words.append(word)
+    return words
+
+
+def _get_permutations_draw(draw):
+    permutations = []
+    for i in range(len(draw)):
+        for k in range(i,len(draw)+1):
+            permutations.extend(_permutate(draw[i:k]))
+    return permutations
+
+
+def _permutate(group):
+    if len(group) == 0:
+        return []
+    if len(group) == 1:
+        return [group]
+    permutations = []
+    for i in range(len(group)):
+        m = group[i]
+        remaining_draw = group[:i] + group[i+1:]
+        for p in _get_permutations_draw(remaining_draw):
+            perm = m + ''.join(p)
+            permutations.append(perm)
+    return permutations
+
+
+def draw_letters():
+    letters = []
+    for _ in range(7):
+        letters.append(random.choice(POUCH))
+    return letters
+    
+
+def _validation(word, draw):
+    if not word in DICTIONARY:
+        raise ValueError("{} is not in dictionary".format(word))
+    for letter in word:
+        if not letter in draw:
+            raise ValueError("The letter {} was not in the draw".format(letter))
+
+def main():
+    rack = draw_letters()
+    print("Letter rack: {}".format(', '.join(rack)))
+    possible_words = get_possible_dict_words(rack)
+    optimal_word = max_word_value(possible_words)
+    max_score = calc_word_value(optimal_word)
+    print("Highest possible word: {} with a score of {}".format(
+        optimal_word, max_score
+    ))
+
+
+if __name__ == '__main__':
+    main()
+    
