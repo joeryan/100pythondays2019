@@ -20,7 +20,7 @@
 | 016 | Mar 14, 2019 | [More PokerHand](011) | OrderedDict |
 | 017 | Mar 15, 2019 | [wordvalue](017) | lists and calculating values |
 | 018 | Mar 19, 2019 | [wordbuilder.py](018) | recursion, from [challeng.es](https://pybit.es/codechallenge02.html) |
-| 019 | Mar 20, 2019 | [TITLE](019) | LEARNING |
+| 019 | Mar 20, 2019 | [wordbuilder.py](018) | itertools and permutations (day 18 continued) |
 | 020 | Mar 21, 2019 | [TITLE](020) | LEARNING |
 | 021 | Mar 22, 2019 | [TITLE](021) | LEARNING |
 | 022 | Mar 23, 2019 | [TITLE](022) | LEARNING |

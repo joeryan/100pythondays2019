@@ -1,5 +1,6 @@
 from data import DICTIONARY, POUCH, LETTER_SCORES
 import random
+import itertools
 
 
 def load_words():
@@ -30,34 +31,18 @@ def max_word_value(words=load_words()):
 
 def get_possible_dict_words(draw):
     permutations = _get_permutations_draw(draw)
-    words = []
-    print(type(permutations))
+    words = set()
     for word in permutations:
-        if word in DICTIONARY:
-            words.append(word)
+        if word.lower() in DICTIONARY:
+            words.add(word)
     return words
 
 
 def _get_permutations_draw(draw):
     permutations = []
-    for i in range(len(draw)):
-        for k in range(i,len(draw)+1):
-            permutations.extend(_permutate(draw[i:k]))
-    return permutations
-
-
-def _permutate(group):
-    if len(group) == 0:
-        return []
-    if len(group) == 1:
-        return [group]
-    permutations = []
-    for i in range(len(group)):
-        m = group[i]
-        remaining_draw = group[:i] + group[i+1:]
-        for p in _get_permutations_draw(remaining_draw):
-            perm = m + ''.join(p)
-            permutations.append(perm)
+    for i in range(1,len(draw)+1):
+        permutations.extend([''.join(word) for word in 
+            itertools.permutations(draw, i)])
     return permutations
 
 
