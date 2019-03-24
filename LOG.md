@@ -21,7 +21,7 @@
 | 017 | Mar 15, 2019 | [wordvalue](017) | lists and calculating values |
 | 018 | Mar 19, 2019 | [wordbuilder.py](018) | recursion, from [challeng.es](https://pybit.es/codechallenge02.html) |
 | 019 | Mar 20, 2019 | [wordbuilder.py](018) | itertools and permutations (day 18 continued) |
-| 020 | Mar 23, 2019 | [TITLE](020) | LEARNING |
+| 020 | Mar 23, 2019 | [code kata practice](codewars.com) | Some short katas from the codewars site |
 | 021 | Mar 24, 2019 | [TITLE](021) | LEARNING |
 | 022 | Mar 25, 2019 | [TITLE](022) | LEARNING |
 | 023 | Mar 26, 2019 | [TITLE](023) | LEARNING |
