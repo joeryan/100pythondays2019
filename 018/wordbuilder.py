@@ -61,7 +61,11 @@ def _validation(word, draw):
             raise ValueError("The letter {} was not in the draw".format(letter))
 
 def main():
-    rack = draw_letters()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("letters", help="Letters in the rack")
+    args = parser.parse_args()
+    rack = args.letters
     print("Letter rack: {}".format(', '.join(rack)))
     possible_words = get_possible_dict_words(rack)
     optimal_word = max_word_value(possible_words)
