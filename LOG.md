@@ -23,7 +23,7 @@
 | 019 | Mar 20, 2019 | [wordbuilder.py](018) | itertools and permutations (day 18 continued) |
 | 020 | Mar 23, 2019 | [code kata practice](codewars.com) | Some short katas from the codewars site |
 | 021 | Mar 24, 2019 | [code kata practice](codewars.com) | arrays, lambda,  |
-| 022 | Mar 25, 2019 | [TITLE](022) | LEARNING |
+| 022 | Mar 25, 2019 | [Flask app](022) | Flask micro web framework |
 | 023 | Mar 26, 2019 | [TITLE](023) | LEARNING |
 | 024 | Mar 27, 2019 | [TITLE](024) | LEARNING |
 | 025 | Mar 27, 2019 | [TITLE](025) | LEARNING |
