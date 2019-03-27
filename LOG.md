@@ -24,7 +24,7 @@
 | 020 | Mar 23, 2019 | [code kata practice](codewars.com) | Some short katas from the codewars site |
 | 021 | Mar 24, 2019 | [code kata practice](codewars.com) | arrays, lambda,  |
 | 022 | Mar 25, 2019 | [Flask app](022) | Flask micro web framework |
-| 023 | Mar 26, 2019 | [TITLE](023) | LEARNING |
+| 023 | Mar 26, 2019 | [kata practice on codewars.com](https://www.codewars.com) | String slicing |
 | 024 | Mar 27, 2019 | [TITLE](024) | LEARNING |
 | 025 | Mar 27, 2019 | [TITLE](025) | LEARNING |
 | 026 | Mar 28, 2019 | [TITLE](026) | LEARNING |
