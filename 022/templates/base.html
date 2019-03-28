@@ -1,0 +1,13 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}<link rel='stylesheet' type='text/css' href='./static/main.css'>{% endblock %}
+
+{% block title %}
+    {% if title %}{{ title }} - Simple Flask App{% else %}
+        Welcome to the Simple Flask App{% endif %}
+{% endblock %}
+{% block content %}
+    <div>Flask App: <a href="/index">Home</a></div>
+    <hr>
+    {% block app_content %}{% endblock %}
+{% endblock %}
