@@ -26,7 +26,7 @@
 | 022 | Mar 25, 2019 | [Flask app](022) | Flask micro web framework |
 | 023 | Mar 26, 2019 | [kata practice on codewars.com](https://www.codewars.com) | String slicing |
 | 024 | Mar 27, 2019 | [Flask app](022) | bootstrap and templates |
-| 025 | Mar 27, 2019 | [TITLE](025) | LEARNING |
+| 025 | Mar 27, 2019 | [Flask app](025) | Flask api with bootstrap |
 | 026 | Mar 28, 2019 | [TITLE](026) | LEARNING |
 | 027 | Mar 29, 2019 | [TITLE](027) | LEARNING |
 | 028 | Mar 30, 2019 | [TITLE](028) | LEARNING |
