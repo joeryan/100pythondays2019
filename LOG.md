@@ -29,7 +29,7 @@
 | 025 | Mar 28, 2019 | [Flask app](025) | Flask api with bootstrap |
 | 026 | Apr 01, 2019 | [Flask app](025) | Flask forms |
 | 027 | Apr 08, 2019 | [Flask app](025) | Form validation |
-| 028 | Apr 09, 2019 | [TITLE](028) | LEARNING |
+| 028 | Apr 09, 2019 | [Flask app](028) | database and migrations |
 | 029 | Apr 10, 2019 | [TITLE](029) | LEARNING |
 | 030 | Apr 11, 2019 | [TITLE](030) | LEARNING |
 | 031 | Apr 12, 2019 | [TITLE](031) | LEARNING |
